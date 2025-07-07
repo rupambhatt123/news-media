@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .hero {
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url('world-news.jpg');
+            background-size: cover;
+            color: white;
+            padding: 50px 20px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .news-card {
+            background: white;
+            padding: 20px;
+            margin: 15px;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .news-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .news-card h3 {
+            margin: 10px 0;
+        }
+        .read-more {
+            display: inline-block;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .read-more:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>World News</h1>
+        <p>Latest updates from around the globe.</p>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="world.html">World</a>
+        <a href="politics.html">Politics</a>
+        <a href="sports.html">Sports</a>
+    </nav>
+    <section class="hero">
+        <h2>Breaking Global News</h2>
+        <p>Stay informed with the latest international headlines.</p>
+    </section>
+    <div class="container">
+        <div class="news-card">
+            <img src="world-news1.jpg" alt="Global News">
+            <h3>Major Event</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="details.html" class="read-more">Read More</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 News Media | Follow us for global updates</p>
+    </footer>
+</body>
+</html>
